@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+}
+
+/* Css  start for Navigation bar*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333A;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/* Css  end for Navigation bar*/
+
+/* Css start for section-1*/
+#section-1 {
+    background-image: url('../img/Cafe3.jpeg');
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-width: 8Px;
+    border-bottom-style:solid ;
+    border-image: linear-gradient(to right, orange,red)1;
+    margin-bottom: 100Px;
+}
+
+#section-1 h1,
+h2 {
+    color: white;
+    text-align: center;
+}
+
+#title-container {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#section-1 img {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+
+}
+
+
+@keyframes example {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 0px;
+        top: 30px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+
+    
+}
+
+/* Css end for section-1*/
